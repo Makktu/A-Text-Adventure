@@ -17,3 +17,36 @@ body {
   background-color: rgb(19, 17, 17);
   color: rgb(236, 222, 222);
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid red;
+  height: 90vh;
+  width: 90vw;
+}
+
+.game_screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.display_area {
+  display: flex;
+  border: 1px gold solid;
+  height: 40vh;
+  width: 60vw;
+}
+
+.player_info {
+  border: 1px rgb(80, 61, 26) dotted;
+  height: 10vh;
+  width: 60vw;
+}
+
+.playing_area {
+  border: 1px orange dotted;
+  height: 10vh;
+  width: 60vw;
+}

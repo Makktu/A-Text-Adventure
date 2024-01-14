@@ -1,3 +1,9 @@
 'use strict';
 
-// read all game data from files (text? other data?)
+import { world } from './src/gameData/place-data.js';
+import getExits from './src/gameLogic/getExits.js';
+
+world.forEach((place) => {
+  console.log(place.longDescription);
+  getExits(place);
+});
