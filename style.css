@@ -37,6 +37,7 @@ body {
   border: 1px gold solid;
   height: 40vh;
   width: 60vw;
+  padding: 20px;
 }
 
 .player_info {
@@ -45,7 +46,7 @@ body {
   width: 60vw;
 }
 
-.playing_area {
+.control_area {
   border: 1px orange dotted;
   height: 10vh;
   width: 60vw;
