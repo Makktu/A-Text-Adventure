@@ -48,6 +48,40 @@ body {
 
 .control_area {
   border: 1px orange dotted;
-  height: 10vh;
+  height: 15vh;
   width: 60vw;
+  display: flex;
+}
+
+.player_input_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#player_input_field {
+  font-size: 1.1em;
+  width: 40vw;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(29, 50, 50);
+  color: white;
+}
+
+.input-btn {
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  color: black;
+  margin: 6px;
+}
+
+#northBtn {
+  margin-bottom: 30px;
+}
+
+#cardinalDirection {
+  font-size: 0.7em;
 }

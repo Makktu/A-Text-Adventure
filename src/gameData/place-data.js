@@ -15,10 +15,10 @@
 export let world = [
   {
     location: 1,
-    hasVisited: true,
+    hasVisited: false,
     shortDescription: 'The Tower Courtyard',
     longDescription:
-      'A shabby, weed-strewn courtyard at the base of the great tower. From here it looks a long way up.',
+      'A shabby, weed-strewn courtyard at the base of The Great Tower. From here it looks a long way up.',
     exits: [4, 3, 0, 2, 0, 0],
     items: ['A rusted sword'],
     events: [],
